@@ -20,22 +20,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.038" />
 
+
     <TextView
+        android:id="@+id/textView7"
         android:layout_width="81dp"
         android:layout_height="24dp"
-        android:background="#C1CAE1"
+        android:background="#148E94A5"
         android:gravity="center"
         android:text="@string/_3rd_line"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toStartOf="@+id/textView5"
-        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89" />
+        app:layout_constraintVertical_bias="0.887" />
 
     <TextView
+        android:id="@+id/textView8"
         android:layout_width="350dp"
         android:layout_height="135dp"
         android:text="@string/vip_class_hotel_with_its_own_golf_courses_high_level_of_service_we_recommend_it_for_a_respectable_holiday_the_hotel_accepts_guests_over_18_years_of_age"
@@ -52,16 +55,17 @@
         android:id="@+id/textView5"
         android:layout_width="161dp"
         android:layout_height="24dp"
-        android:layout_marginEnd="124dp"
         android:background="#C1CAE1"
         android:gravity="center"
         android:text="@string/paid_wi_fi_in_the_lobby"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.887" />
+        app:layout_constraintVertical_bias="0.1" />
 
     <TextView
         android:layout_width="161dp"
@@ -97,12 +101,14 @@
     <FrameLayout
         android:layout_width="346dp"
         android:layout_height="278dp"
+        android:layout_marginStart="32dp"
         android:background="@drawable/bordeeer"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="336dp"
 
 
-        >
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752">
 
         <ImageView
             android:layout_width="50sp"
@@ -110,6 +116,7 @@
             android:layout_marginStart="10sp"
             android:layout_marginTop="20sp"
             android:background="@drawable/img_1" />
+
         <ImageView
             android:layout_width="50sp"
             android:layout_height="50sp"
@@ -117,6 +124,7 @@
 
             android:layout_marginTop="115sp"
             android:background="@drawable/img_2" />
+
         <ImageView
             android:layout_width="50sp"
             android:layout_height="50sp"
@@ -144,33 +152,37 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
+
         <TextView
             android:layout_width="92dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="135sp"
             android:text="@string/adsdsa"
             android:textColor="@color/black"
-            android:layout_marginTop="135sp"
-            android:layout_marginStart="100sp"
             android:textSize="15sp"
             android:textStyle="italic" />
+
         <TextView
             android:layout_width="92dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="40sp"
             android:text="@string/essentials"
             android:textColor="@color/black"
-            android:layout_marginTop="40sp"
-            android:layout_marginStart="100sp"
             android:textSize="15sp"
             android:textStyle="italic" />
+
         <TextView
             android:layout_width="92dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="230sp"
             android:text="@string/adsdsa"
             android:textColor="@color/black"
-            android:layout_marginTop="230sp"
-            android:layout_marginStart="100sp"
             android:textSize="15sp"
             android:textStyle="italic" />
+
         <TextView
             android:layout_width="159dp"
             android:layout_height="wrap_content"
@@ -186,6 +198,7 @@
             android:layout_height="100sp"
             android:layout_marginTop="80sp"
             android:text="@string/sdffs" />
+
         <TextView
             android:layout_width="386dp"
             android:layout_height="100sp"
@@ -201,6 +214,7 @@
 
 
             />
+
         <ImageView
             android:layout_width="60sp"
             android:layout_height="60sp"
@@ -210,6 +224,7 @@
 
 
             />
+
         <ImageView
             android:layout_width="60sp"
             android:layout_height="60sp"
@@ -221,9 +236,24 @@
             />
 
 
-
-
     </FrameLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="367dp"
+        android:layout_height="60dp"
+        android:text="@string/у1цйуцу2й"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:backgroundTint="#0D72FF"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

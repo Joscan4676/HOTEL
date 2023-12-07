@@ -37,4 +37,18 @@
     <string name="hotel">HOTEL</string>
     <string name="as">Hotel</string>
     <string name="_1_kilimetr_from_the_bech">1 kilimetr from the bech</string>
+    <string name="oб_отеле">Об отеле</string>
+    <string name="_3я_линия">3-я линия</string>
+    <string name="gлатный_w_fi_в_фойе">Платный Wi-Fi в фойе</string>
+    <string name="_30км_до_аэропорта">30 км до аэропорта</string>
+    <string name="_1км_до_пляда">1 км до пляжа</string>
+    <string name="_30_км_до_аэропорта">30 км до аэропорта</string>
+    <string name="отель_вип_класса">Отель VIP-класса с собственными гольф полями. Высокий уровнь сервиса. Рекомендуем для респектабельного отдыха. Отель принимает гостей от 18 лет!</string>
+    <string name="удообства">Удобства</string>
+    <string name="что_включенр">Что включено</string>
+    <string name="что_не_вкдючер">Что не включено</string>
+    <string name="самое_необходимое">Самое необходимое</string>
+    <string name="from_1600">From 1600$</string>
+    <string name="liniya">______________________________________________________</string>
+    <string name="liniya2">_______________________________________________________</string>
 </resources>

@@ -31,7 +31,7 @@
         tools:layout_editor_absoluteX="0dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintlayout"
+            android:id="@+id/mainlayout"
             android:layout_width="match_parent"
             android:layout_height="600dp"
             android:layout_marginTop="16dp"
@@ -49,12 +49,16 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <LinearLayout
-                android:id="@+id/linearLayout"
+                android:id="@+id/perfectLayout"
                 android:layout_width="144dp"
                 android:layout_height="28dp"
                 android:background="@drawable/bordeer"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="323dp">
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.067"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.68">
 
 
                 <ImageView
@@ -89,11 +93,11 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/price"
                 android:layout_width="170dp"
                 android:layout_height="35dp"
                 android:gravity="center"
-                android:text="From 1600$"
+                android:text="@string/from_1600"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold"
@@ -105,7 +109,7 @@
                 app:layout_constraintVertical_bias="0.904" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/forATour"
                 android:layout_width="188dp"
                 android:layout_height="27dp"
                 android:layout_marginTop="-12sp"
@@ -120,7 +124,7 @@
                 app:layout_constraintVertical_bias="0.91" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/places"
                 android:layout_width="372dp"
                 android:layout_height="24dp"
                 android:text="@string/madinat_makadi_safaga_road_makadi_bay"
@@ -128,9 +132,11 @@
                 android:textSize="15sp"
                 android:textStyle="italic"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.817"
-                tools:layout_editor_absoluteX="16dp" />
+                app:layout_constraintVertical_bias="0.817" />
+
 
             <TextView
                 android:layout_width="313dp"
@@ -140,12 +146,15 @@
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.183"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.763"
-                tools:layout_editor_absoluteX="16dp" />
+                app:layout_constraintVertical_bias="0.763" />
+
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/hotel"
                 android:layout_width="376dp"
                 android:layout_height="256dp"
                 android:background="@drawable/hotelpic"
@@ -161,3 +170,4 @@
 
 
 
+</androidx.constraintlayout.widget.ConstraintLayout>

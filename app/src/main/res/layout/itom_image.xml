@@ -224,17 +224,17 @@
         android:id="@+id/bt_next"
         android:layout_width="367dp"
         android:layout_height="60dp"
+        android:backgroundTint="#0D72FF"
+        android:gravity="center"
+        android:onClick="newact"
         android:text="@string/у1цйуцу2й"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:backgroundTint="#0D72FF"
-        />
+        app:layout_constraintVertical_bias="0.976" />
 
 
     <TextView
